@@ -185,7 +185,7 @@ if submitted:
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
-h
+
                 st.progress(result["overall"]["score"] / 100)
                 st.markdown(f"<div style='font-size:13px; color:#555; line-height:1.65; margin-bottom:1rem;'>{result['overall']['summary']}</div>", unsafe_allow_html=True)
                 st.divider()
