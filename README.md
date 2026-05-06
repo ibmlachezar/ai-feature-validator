@@ -80,3 +80,8 @@ Found a gap in the framework? Open an issue or submit a PR. The framework improv
 ## License
 
 MIT — use it, fork it, adapt it for your team.
+
+
+---
+
+> Last updated: May 2025
