@@ -82,7 +82,7 @@ Stage: {stage}
 Production data access: {has_data}"""
 
     message = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-5",
         max_tokens=1000,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_msg}]
@@ -185,7 +185,7 @@ if submitted:
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
-
+h
                 st.progress(result["overall"]["score"] / 100)
                 st.markdown(f"<div style='font-size:13px; color:#555; line-height:1.65; margin-bottom:1rem;'>{result['overall']['summary']}</div>", unsafe_allow_html=True)
                 st.divider()
