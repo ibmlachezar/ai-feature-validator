@@ -65,7 +65,7 @@ export default function App() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          model: "claude-sonnet-4-20250514",
+          model: "claude-sonnet-4-5",
           max_tokens: 1000,
           system: SYSTEM,
           messages: [{ role: "user", content: `Feature: ${form.name}\nWhat it does: ${form.description}\nTarget user: ${form.targetUser}\nProblem solved: ${form.problem}\nStage: ${form.stage}\nProduction data: ${form.hasData}` }],
